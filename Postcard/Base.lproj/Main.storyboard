@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="igq-8f-ucI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gku-cE-Tcn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sagrada-Familia-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NkT-Xn-B6Z">
@@ -49,7 +50,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Postcard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -132,6 +132,7 @@
                         <outlet property="messageLabel" destination="IC8-qu-yWI" id="rtr-gr-4Ep"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1224" y="360"/>
         </scene>
